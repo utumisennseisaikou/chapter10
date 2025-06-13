@@ -20,5 +20,9 @@ public class Hero {
     public Hero(){
         System.out.println("Heroのコンストラクタが動作");
     }
+    public Hero(String name){
+        System.out.println(name);
+    }
+
 
 }
